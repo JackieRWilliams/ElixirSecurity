@@ -1,7 +1,7 @@
-Description:
+## Description
 This is a simple console app to simulate users entering and answering security questions per Elixir guidelines.
 
-Design:
+## Design
 For ease of implementation I chose to use Json files to store both the list of questions and the user responses.  
 The questions are all stored in a file named questions.json and are represented by a unique Id 
 and question text.  Additional questions can be added very easily by adding a new Json item with a unique Id.
